@@ -1,0 +1,48 @@
+.send-container {
+    margin-left: 93px;
+    position: relative;
+}
+
+.footer-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-label {
+    margin-right: 12px;
+}
+
+.footer-form-text {
+    color: var(--fourth-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+    border-color: var(--tertiary-color);
+    outline: var(--tertiary-color);
+   }
+   &::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}
+}
+
+.send-icon {
+    fill: var(--fourth-color);
+    margin-left: 10px;
+    position: relative;
+}
+

@@ -1,0 +1,61 @@
+.footer {
+    background-color: var(--sixth-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo {
+    color: var(--fourth-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.address-list {
+    margin-top: 20px;
+}
+
+.address {
+    margin-bottom: 9px;
+    color: var(--fourth-color);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.adress-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-mail {
+    color: var(--eighth-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--tertiary-color);
+   }
+}
+
+.footer-tel {
+    color: var(--eighth-color);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--tertiary-color);
+   }
+}
+
