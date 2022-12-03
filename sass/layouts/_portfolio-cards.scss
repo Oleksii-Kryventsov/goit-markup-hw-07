@@ -5,9 +5,9 @@
     gap:30px;
 }
 
-// .example-item{
-//     flex-basis: calc((100% - (2 * 30px)) / 3);
-// }
+.example-item{
+    flex-basis: calc((100% - (2 * 30px)) / 3);
+}
 
 .example-item .link{
     display: block;
