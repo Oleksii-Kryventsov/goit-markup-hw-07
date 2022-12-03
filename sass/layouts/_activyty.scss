@@ -1,4 +1,4 @@
-.activity-title {
+.activity__title {
     margin-bottom: 50px;
     text-align: center;
     color: var(--secondary-color);
@@ -7,20 +7,20 @@
     font-weight: 700;
 }
 
-.activity-list {
+.activity__list {
     display: flex;
     gap: 30px;
 }
 
-.activity-item {
+.activity__item {
     width: calc((100% - 60px) / 3);
 }
 
-.activity-thumb {
+.activity__thumb {
     position: relative;
 }
 
-.activity-block {
+.activity__block {
     position: absolute;
     width: 100%;
     height: 70px;
@@ -32,7 +32,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.activity-text {
+.activity__text {
     font-size: 14px;
     line-height: 1.14;
     text-align: center;

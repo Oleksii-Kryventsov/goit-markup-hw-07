@@ -15,10 +15,11 @@
     flex-direction: row-reverse;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     &:hover,
     &:focus{
     color:var(--tertiary-color);
-   } 
+    } 
 }
 
 .mail-icon{
@@ -32,10 +33,11 @@
     flex-direction: row-reverse;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover,
     &:focus{
     color:var(--tertiary-color);
-   }
+    }
 }
 
 .tel-icon{
