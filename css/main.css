@@ -1074,6 +1074,11 @@ img {
   gap: 30px;
 }
 
+.example-item {
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
+}
+
 .example-item .link {
   display: block;
 }
